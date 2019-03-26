@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TravelRecordApp"
+             x:Class="TravelRecordApp.MainPage">
+
+    <StackLayout VerticalOptions="Center">
+        <Entry x:Name="User"></Entry>
+        <Entry x:Name="Pass"></Entry>
+        <Button x:Name="Login" Text="Log In" Clicked="Login_Clicked"></Button>
+        
+        
+    </StackLayout>
+
+</ContentPage>

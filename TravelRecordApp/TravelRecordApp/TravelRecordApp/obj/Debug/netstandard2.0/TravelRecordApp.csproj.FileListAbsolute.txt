@@ -1,0 +1,12 @@
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\bin\Debug\netstandard2.0\TravelRecordApp.deps.json
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\bin\Debug\netstandard2.0\TravelRecordApp.dll
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\bin\Debug\netstandard2.0\TravelRecordApp.pdb
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\TravelRecordApp.csprojAssemblyReference.cache
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\TravelRecordApp.csproj.CoreCompileInputs.cache
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\TravelRecordApp.AssemblyInfoInputs.cache
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\TravelRecordApp.AssemblyInfo.cs
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\TravelRecordApp.dll
+D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\TravelRecordApp.pdb
