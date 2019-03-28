@@ -7,11 +7,21 @@ namespace TravelRecordApp
 {
     public partial class App : Application
     {
+        //Ubicación de la base de datos SQLite-net-PCL
+        public static string DbLocation=string.Empty;
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
+        }
+        //Nuevo Constructor
+        public App(string db)
+        {
+            InitializeComponent();
+            MainPage = new NavigationPage(new MainPage());
+            //asignamos la dirección que recibe el constructor
+            DbLocation = db;
         }
 
         protected override void OnStart()
