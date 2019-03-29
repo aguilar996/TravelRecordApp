@@ -102,15 +102,24 @@ D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp
 D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\TravelRecordApp.Android.nuget.stamp
-C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\TravelRecordApp.Android.csprojAssemblyReference.cache
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.Android.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.Android.pdb
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\com.companyname.TravelRecordApp.apk
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\com.companyname.TravelRecordApp-Signed.apk
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\bin\Debug\TravelRecordApp.pdb
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\TravelRecordApp.Android.nuget.stamp
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\TravelRecordApp.Android.csprojAssemblyReference.cache
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll.stamp
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Base.dll.stamp
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\XbdMerge\Xamarin.GooglePlayServices.Maps.dll.stamp
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\XbdMerge\proguard\dc663e480.txt
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\XbdMerge\dc663e48.proguard.stamp
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\XbdMerge\0757626b.proguard.stamp
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\XbdMerge\2f4d086a.proguard.stamp
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\XbdMerge\ea5c07c4.proguard.stamp
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\libraryimports.cache.stamp
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\res.flag
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\TravelRecordApp.Android.csproj.CoreCompileInputs.cache
@@ -206,4 +215,3 @@ C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelR
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\linksrc\TravelRecordApp.dll.mdb

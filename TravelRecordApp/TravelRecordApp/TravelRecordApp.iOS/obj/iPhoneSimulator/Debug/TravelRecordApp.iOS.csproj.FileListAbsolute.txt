@@ -58,6 +58,7 @@ D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp
 D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.pdb
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\TravelRecordApp.iOS.exe
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\TravelRecordApp.iOS.pdb
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
@@ -104,6 +105,8 @@ C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelR
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\TravelRecordApp.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\TravelRecordApp.pdb
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items

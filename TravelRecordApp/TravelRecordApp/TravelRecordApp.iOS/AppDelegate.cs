@@ -24,6 +24,8 @@ namespace TravelRecordApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            //preparamos a iOS para usar XAmarin Forms Maps
+            Xamarin.FormsMaps.Init();
             //Base de datos SQLite path para iPhone
             string dbName = "travel_db.sqlite"; //db name
             //en iPhone no se guarda en personal sino en el mismo direcotrio pero en Library
