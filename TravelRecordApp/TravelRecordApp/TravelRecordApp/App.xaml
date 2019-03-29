@@ -7,10 +7,10 @@
             <Color x:Key="Texto">#228B22</Color>
             <Color x:Key="WhiteColor">#FFFFFF</Color>
 
-            <Style TargetType="Button">
+            <!--<Style TargetType="Button">
                 <Setter Property="BackgroundColor" Value="{StaticResource Verde}"></Setter>
                 <Setter Property="TextColor" Value="{StaticResource WhiteColor}"></Setter>
-            </Style>
+            </Style>-->
         </ResourceDictionary>
     </Application.Resources>
 </Application>

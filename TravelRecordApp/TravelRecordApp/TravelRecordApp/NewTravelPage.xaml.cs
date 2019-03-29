@@ -37,7 +37,7 @@ namespace TravelRecordApp
         //    db.Close();
         //}
         #endregion
-        private void Save_Clicked(object sender, EventArgs e)
+        private  async void Save_Clicked(object sender, EventArgs e)
         {
             //creamos objeto con los entrys
             Post post = new Post()
@@ -53,13 +53,23 @@ namespace TravelRecordApp
              int rows= db.Insert(post); 
                 if(rows>0)
                 {
-                     DisplayAlert("Success", "Experience succesfully saved","OK");
+                     bool result=  await DisplayAlert("Success", "Experience succesfully Saved","OK", "Cancel");
+                    if (result) {await  Navigation.PopAsync(); }
+                    
+
                 }
                 else
                 {
-                     DisplayAlert("Error", "Something went wrong","OK");
+                    var result = await DisplayAlert("Error", "Something went wrong","OK", "cancel");
+                    
                 }
+          
             }
+        }
+
+        private void Delete_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

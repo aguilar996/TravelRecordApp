@@ -4,7 +4,8 @@
              x:Class="TravelRecordApp.HistoryPage">
     
     
-    <ListView x:Name="PostListView">
+    <ListView x:Name="PostListView" 
+              ItemSelected="PostListView_ItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Experience}"></TextCell>

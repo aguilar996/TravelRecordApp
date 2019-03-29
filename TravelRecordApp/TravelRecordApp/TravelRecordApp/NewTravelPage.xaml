@@ -7,6 +7,7 @@
         <ToolbarItem Text="Save" 
                      x:Name="Save" 
                      Clicked="Save_Clicked"></ToolbarItem>
+      
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
