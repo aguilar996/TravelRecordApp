@@ -1,5 +1,6 @@
 FormsViewGroup
 Plugin.CurrentActivity
+Plugin.Geolocator
 Plugin.Permissions
 SQLite-net
 SQLitePCLRaw.batteries_green

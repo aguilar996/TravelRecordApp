@@ -1,70 +1,71 @@
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\TravelRecordApp.Android.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Java.Interop.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Mono.Android.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\mscorlib.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLite-net.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.batteries_green.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.batteries_v2.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.core.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Core.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Xml.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\TravelRecordApp.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v4.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.CardView.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.Android.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Base.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Basement.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Maps.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Tasks.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Net.Http.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Runtime.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Collections.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Linq.Expressions.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Reflection.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Diagnostics.Debug.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Threading.Tasks.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Linq.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Threading.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Globalization.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Mono.Security.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\netstandard.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Data.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Numerics.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Transactions.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
-D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\TravelRecordApp.Android.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Java.Interop.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Mono.Android.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Plugin.Geolocator.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLite-net.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.batteries_green.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.batteries_v2.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.core.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Core.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Xml.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\TravelRecordApp.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v4.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.Android.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Base.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Xamarin.GooglePlayServices.Tasks.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Net.Http.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Collections.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Linq.Expressions.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Reflection.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Diagnostics.Debug.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Threading.Tasks.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Linq.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Threading.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Globalization.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Mono.Security.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\netstandard.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Data.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Numerics.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Transactions.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.Web.Services.dll

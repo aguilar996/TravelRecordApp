@@ -64,3 +64,13 @@ D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp
 D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.exe
 D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.pdb
 D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\TravelRecordApp.dll.mdb
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.csprojAssemblyReference.cache
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.csproj.CoreCompileInputs.cache
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.exe
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\obj\iPhoneSimulator\Debug\TravelRecordApp.iOS.pdb

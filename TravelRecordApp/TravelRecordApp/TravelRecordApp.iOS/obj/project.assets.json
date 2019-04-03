@@ -59,6 +59,18 @@
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/3.6.0.264807": {
         "type": "package",
         "compile": {
@@ -201,6 +213,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms.Maps": "3.6.0.264807",
           "sqlite-net-pcl": "1.5.231"
@@ -271,6 +284,18 @@
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/3.6.0.264807": {
         "type": "package",
         "compile": {
@@ -413,6 +438,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms.Maps": "3.6.0.264807",
           "sqlite-net-pcl": "1.5.231"
@@ -483,6 +509,18 @@
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/3.6.0.264807": {
         "type": "package",
         "compile": {
@@ -625,6 +663,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms.Maps": "3.6.0.264807",
           "sqlite-net-pcl": "1.5.231"
@@ -695,6 +734,18 @@
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/3.6.0.264807": {
         "type": "package",
         "compile": {
@@ -837,6 +888,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms.Maps": "3.6.0.264807",
           "sqlite-net-pcl": "1.5.231"
@@ -973,6 +1025,33 @@
         "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll",
         "sqlitepclraw.provider.sqlite3.ios_unified.1.1.11.nupkg.sha512",
         "sqlitepclraw.provider.sqlite3.ios_unified.nuspec"
+      ]
+    },
+    "Xam.Plugin.Geolocator/4.5.0.6": {
+      "sha512": "Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
+      "type": "package",
+      "path": "xam.plugin.geolocator/4.5.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.Geolocator.dll",
+        "lib/monoandroid71/Plugin.Geolocator.xml",
+        "lib/netstandard1.0/Plugin.Geolocator.dll",
+        "lib/netstandard1.0/Plugin.Geolocator.xml",
+        "lib/netstandard2.0/Plugin.Geolocator.dll",
+        "lib/netstandard2.0/Plugin.Geolocator.xml",
+        "lib/uap10.0.10240/Plugin.Geolocator.dll",
+        "lib/uap10.0.10240/Plugin.Geolocator.pri",
+        "lib/uap10.0.10240/Plugin.Geolocator.xml",
+        "lib/xamarinios10/Plugin.Geolocator.dll",
+        "lib/xamarinios10/Plugin.Geolocator.xml",
+        "lib/xamarinmac20/Plugin.Geolocator.dll",
+        "lib/xamarinmac20/Plugin.Geolocator.xml",
+        "lib/xamarintvos10/Plugin.Geolocator.dll",
+        "lib/xamarintvos10/Plugin.Geolocator.xml",
+        "readme.txt",
+        "xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+        "xam.plugin.geolocator.nuspec"
       ]
     },
     "Xamarin.Forms/3.6.0.264807": {
@@ -1183,26 +1262,27 @@
     "Xamarin.iOS,Version=v1.0": [
       "Plugin.Permissions >= 3.0.0.12",
       "TravelRecordApp >= 1.0.0",
+      "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xamarin.Forms >= 3.6.0.264807",
       "Xamarin.Forms.Maps >= 3.6.0.264807",
       "sqlite-net-pcl >= 1.5.231"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aguil\\.nuget\\packages\\": {}
+    "C:\\Users\\LV412AR\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetcs\\CrossPlat App\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
       "projectName": "TravelRecordApp.iOS",
-      "projectPath": "D:\\Projetcs\\CrossPlat App\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\aguil\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetcs\\CrossPlat App\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\LV412AR\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\aguil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1215,8 +1295,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Projetcs\\CrossPlat App\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
-              "projectPath": "D:\\Projetcs\\CrossPlat App\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj"
+            "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
+              "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj"
             }
           }
         }
@@ -1228,6 +1308,10 @@
           "Plugin.Permissions": {
             "target": "Package",
             "version": "[3.0.0.12, )"
+          },
+          "Xam.Plugin.Geolocator": {
+            "target": "Package",
+            "version": "[4.5.0.6, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

@@ -8,11 +8,16 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
+using Plugin.Geolocator;
+using Plugin.Geolocator.Abstractions; 
+
 namespace TravelRecordApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class MapPage : ContentPage
 	{
+        //Variable local que me indica si hay permisos o no
+        private bool hasLocationPermission;
 		public MapPage ()
 		{
        
@@ -48,10 +53,15 @@ namespace TravelRecordApp
                     }
             }
                 // si la variable globla de permisos es igual  a Grantd
-                if (PermStatus== PermissionStatus.Granted)
+                if (PermStatus == PermissionStatus.Granted)
                 {
-                        //Invocamos el mapa con la ubicación actual
+                    //Invocamos el mapa con la ubicación actual
                     LocationMap.IsShowingUser = true;
+                    //si tengo permiso afecto tb a la variable global
+                    hasLocationPermission = true;
+                    //Metodo de ubucacion acutal si es que tengo permiso
+                    GetLocation();
+            
                 }
                     else
                     {
@@ -63,7 +73,52 @@ namespace TravelRecordApp
                 await DisplayAlert("Error", e.Message, "OK");
             }
         }
-	}
+
+        // Metodo de invocacion del tab que busca la ubicacion del dispositivo
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            if(hasLocationPermission)
+            {
+                var locator = CrossGeolocator.Current;
+                locator.PositionChanged += Locator_PositionChanged;
+                await locator.StartListeningAsync(TimeSpan.Zero, 100);
+            }
+            GetLocation();
+
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            CrossGeolocator.Current.StopListeningAsync();
+            CrossGeolocator.Current.PositionChanged -= Locator_PositionChanged;
+        }
+
+        //metodo asynchrono que llama la plugin de geolocaclizacion
+        private async void GetLocation()
+        {
+            if(hasLocationPermission)
+            {
+            var locator = CrossGeolocator.Current;
+            var position = await locator.GetPositionAsync();
+            MoveMap(position);
+            }
+                
+        }
+
+        void Locator_PositionChanged(Object sender, PositionEventArgs e)
+        {
+            MoveMap(e.Position);
+        }
+        //Funcion que se llama para mover el mapa se llama cuando cambia la posion y cuando se comsulta el tab de mapa
+        private void MoveMap(Position position)
+        {
+            var center = new Xamarin.Forms.Maps.Position(position.Latitude, position.Longitude);
+            var span = new Xamarin.Forms.Maps.MapSpan(center, 1, 1);
+            LocationMap.MoveToRegion(span);
+        }
+    }
 
 
 }
