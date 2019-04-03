@@ -8,8 +8,9 @@
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="TravelRecordApp.Android"></application>
-  <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBrbxEtkOVLkiNreiT4yjMC9WY6-e0skm4"></meta-data>
+	<application android:label="TravelRecordApp.Android">
+  <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBrbxEtkOVLkiNreiT4yjMC9WY6-e0skm4"/>
+  </application>
 </manifest>
 
 
