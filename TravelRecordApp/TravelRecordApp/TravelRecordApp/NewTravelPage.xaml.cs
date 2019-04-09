@@ -8,6 +8,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using TravelRecordApp.Model;
 using SQLite;
+using Plugin.Geolocator;
+using TravelRecordApp.Logic;
 
 namespace TravelRecordApp
 {
@@ -18,6 +20,18 @@ namespace TravelRecordApp
 		{
 			InitializeComponent ();
 		}
+        //sobre escribo el metodo on appear para que consulte cada vez que aparece la página de nuevo viaje
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing(); 
+            //Objeto locator para obtener el GPS
+            var locator = CrossGeolocator.Current;
+            //objeto posicion para obtener posición actual
+            var position = await locator.GetPositionAsync();
+            //llamamos a la logica de Venues y le enviamos Logitud y latitud actual
+            var venues = VenueLogic.GetVenues(position.Latitude, position.Longitude);      
+        }
+
         #region deprecated
         //ANTIGUO CON CLOSE
         //private void Save_Clicked(object sender, EventArgs e)
