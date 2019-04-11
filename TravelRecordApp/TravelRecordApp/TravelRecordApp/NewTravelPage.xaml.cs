@@ -29,7 +29,7 @@ namespace TravelRecordApp
             //objeto posicion para obtener posición actual
             var position = await locator.GetPositionAsync();
             //llamamos a la logica de Venues y le enviamos Logitud y latitud actual
-            var venues = VenueLogic.GetVenues(position.Latitude, position.Longitude);      
+            var venues = await VenueLogic.GetVenues(position.Latitude, position.Longitude);      
         }
 
         #region deprecated
