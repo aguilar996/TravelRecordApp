@@ -13,12 +13,14 @@ namespace TravelRecordApp.Logic
         public async static Task<List<Venue>> GetVenues(double latitud, double longitud)
         {
             List<Venue> venues = new List<Venue>();
-            var url = Venue.GenerateURL(latitud, longitud);
+            var url = VenueRoot.GenerateURL(latitud, longitud);
             using (HttpClient client = new HttpClient())
             {
                 var response = await client.GetAsync(url);
-                var json = response.Content.ReadAsStringAsync();
-                
+                var json = await response.Content.ReadAsStringAsync();
+
+                var venueRoot = JsonConvert.DeserializeObject<VenueRoot>(json);
+                venues = venueRoot.response.venues as List<Venue>;
             }
                 return venues;
             

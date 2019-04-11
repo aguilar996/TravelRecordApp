@@ -123,7 +123,7 @@
           "lib/netstandard2.0/Plugin.Geolocator.dll": {}
         }
       },
-      "Xamarin.Forms/3.6.0.264807": {
+      "Xamarin.Forms/3.6.0.293080": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -140,10 +140,10 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.264807": {
+      "Xamarin.Forms.Maps/3.6.0.293080": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Forms": "3.6.0.293080"
         },
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
@@ -659,10 +659,10 @@
         "xam.plugin.geolocator.nuspec"
       ]
     },
-    "Xamarin.Forms/3.6.0.264807": {
-      "sha512": "PbnXpStyxNYJzPrXXMW17F4YeMsFAs6YT9LL2vxObDWCGtaKkLia4UyBPF3Qbhy+lQPeap/ijV1Rlvasp4DFiA==",
+    "Xamarin.Forms/3.6.0.293080": {
+      "sha512": "5o6pS3kbFwWDiTpywz0UasLwn9Ay5/1eGH8JWXBV0N2lDkZauOgTZaMIE/Rdjz2bLhMturwzI1/DFuNxdSidFw==",
       "type": "package",
-      "path": "xamarin.forms/3.6.0.264807",
+      "path": "xamarin.forms/3.6.0.293080",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -820,14 +820,14 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.6.0.264807.nupkg.sha512",
+        "xamarin.forms.3.6.0.293080.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/3.6.0.264807": {
-      "sha512": "AYJQ+kMFntWwZ2C5A0IfFW1utwSuoSc5R9Ek/ML3fePoVxMpuK6vPwwWTnf5FiLQ9BQadq2Cqg3wZj7gfbE5wQ==",
+    "Xamarin.Forms.Maps/3.6.0.293080": {
+      "sha512": "p/nvpOe6QMkN+L4S1K6b0skdTCl3kFLlrkwdlfS3bRcH2Rpssh+2NA3iFyy5FMBIr/0S7Y91Yl1MZ3D8UxF8QQ==",
       "type": "package",
-      "path": "xamarin.forms.maps/3.6.0.264807",
+      "path": "xamarin.forms.maps/3.6.0.293080",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -853,7 +853,7 @@
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.3.6.0.264807.nupkg.sha512",
+        "xamarin.forms.maps.3.6.0.293080.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     }
@@ -865,13 +865,14 @@
       "Newtonsoft.Json >= 12.0.1",
       "Plugin.Permissions >= 3.0.0.12",
       "Xam.Plugin.Geolocator >= 4.5.0.6",
-      "Xamarin.Forms >= 3.6.0.264807",
-      "Xamarin.Forms.Maps >= 3.6.0.264807",
+      "Xamarin.Forms >= 3.6.0.293080",
+      "Xamarin.Forms.Maps >= 3.6.0.293080",
       "sqlite-net-pcl >= 1.5.231"
     ]
   },
   "packageFolders": {
     "C:\\Users\\LV412AR\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -884,11 +885,13 @@
       "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -935,11 +938,11 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.6.0.264807, )"
+            "version": "[3.6.0.293080, )"
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
-            "version": "[3.6.0.264807, )"
+            "version": "[3.6.0.293080, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

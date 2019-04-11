@@ -255,8 +255,8 @@
           "Newtonsoft.Json": "12.0.1",
           "Plugin.Permissions": "3.0.0.12",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Forms": "3.6.0.264807",
-          "Xamarin.Forms.Maps": "3.6.0.264807",
+          "Xamarin.Forms": "3.6.0.293080",
+          "Xamarin.Forms.Maps": "3.6.0.293080",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -521,8 +521,8 @@
           "Newtonsoft.Json": "12.0.1",
           "Plugin.Permissions": "3.0.0.12",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Forms": "3.6.0.264807",
-          "Xamarin.Forms.Maps": "3.6.0.264807",
+          "Xamarin.Forms": "3.6.0.293080",
+          "Xamarin.Forms.Maps": "3.6.0.293080",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -787,8 +787,8 @@
           "Newtonsoft.Json": "12.0.1",
           "Plugin.Permissions": "3.0.0.12",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Forms": "3.6.0.264807",
-          "Xamarin.Forms.Maps": "3.6.0.264807",
+          "Xamarin.Forms": "3.6.0.293080",
+          "Xamarin.Forms.Maps": "3.6.0.293080",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -1053,8 +1053,8 @@
           "Newtonsoft.Json": "12.0.1",
           "Plugin.Permissions": "3.0.0.12",
           "Xam.Plugin.Geolocator": "4.5.0.6",
-          "Xamarin.Forms": "3.6.0.264807",
-          "Xamarin.Forms.Maps": "3.6.0.264807",
+          "Xamarin.Forms": "3.6.0.293080",
+          "Xamarin.Forms.Maps": "3.6.0.293080",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -1441,7 +1441,7 @@
       ]
     },
     "Xamarin.Forms/3.6.0.264807": {
-      "sha512": "PbnXpStyxNYJzPrXXMW17F4YeMsFAs6YT9LL2vxObDWCGtaKkLia4UyBPF3Qbhy+lQPeap/ijV1Rlvasp4DFiA==",
+      "sha512": "T7gYS3PoGNtp6D7GAX7fF4QzR7NC36NNQSiuEb5TXO8rEqkZGwpC4u/6S62rH0wL3dabWNVpJPPnL5jZvWeoVg==",
       "type": "package",
       "path": "xamarin.forms/3.6.0.264807",
       "files": [
@@ -1656,7 +1656,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LV412AR\\.nuget\\packages\\": {}
+    "C:\\Users\\LV412AR\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1668,9 +1669,13 @@
       "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1730,5 +1735,33 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms.Maps from 3.6.0.293080 to 3.6.0.264807. Reference the package directly from the project to select a different version. \r\n TravelRecordApp.iOS -> TravelRecordApp -> Xamarin.Forms.Maps (>= 3.6.0.293080) \r\n TravelRecordApp.iOS -> Xamarin.Forms.Maps (>= 3.6.0.264807)",
+      "libraryId": "Xamarin.Forms.Maps",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 3.6.0.293080 to 3.6.0.264807. Reference the package directly from the project to select a different version. \r\n TravelRecordApp.iOS -> TravelRecordApp -> Xamarin.Forms (>= 3.6.0.293080) \r\n TravelRecordApp.iOS -> Xamarin.Forms (>= 3.6.0.264807)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
