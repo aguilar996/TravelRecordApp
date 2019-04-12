@@ -1,11 +1,12 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using TravelRecordApp.Model;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+using Xamarin.Forms.Xaml; 
 
 namespace TravelRecordApp
 {
@@ -15,6 +16,33 @@ namespace TravelRecordApp
 		public ProfilePage ()
 		{
 			InitializeComponent ();
+            
 		}
-	}
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))  
+            {
+                var postTable = db.Table<Post>().ToList();
+                var categories = (from p in postTable
+                                  orderby p.CategoryId
+                                  select p.CategoryName).Distinct().ToList();
+              
+
+                Dictionary<string, int> categoriesCount = new Dictionary<string, int>();
+                foreach (var category in categories)
+                {
+                    var count = (from post in postTable
+                                 where post.CategoryName == category
+                                 select post).ToList().Count();
+                    categoriesCount.Add(category, count);
+                }
+                    categoriesListView.ItemsSource = postTable.Count.ToString();
+                    postCountLabel.Text = postTable.Count.ToString();
+                
+
+            }
+        }
+    }
 }
