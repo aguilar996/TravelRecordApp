@@ -4,5 +4,6 @@
     <SelectedDevice>jd_android</SelectedDevice>
     <DefaultDevice>jd_android</DefaultDevice>
     <AndroidDesignerPreferredTheme>Theme.DeviceDefault.NoActionBar.Fullscreen</AndroidDesignerPreferredTheme>
+    <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
 </Project>

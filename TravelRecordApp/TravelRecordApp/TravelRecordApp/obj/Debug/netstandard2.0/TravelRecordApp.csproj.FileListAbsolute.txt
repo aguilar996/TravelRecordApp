@@ -32,3 +32,4 @@ C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelR
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\TravelRecordApp.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\TravelRecordApp.pdb
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp\obj\Debug\netstandard2.0\TravelRecordApp.csprojAssemblyReference.cache
