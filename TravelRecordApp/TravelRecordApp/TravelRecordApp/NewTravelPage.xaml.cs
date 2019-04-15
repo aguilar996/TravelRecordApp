@@ -70,37 +70,43 @@ namespace TravelRecordApp
                     Distance = selectedVenue.location.distance,
                     latitude = selectedVenue.location.lat,
                     longitud = selectedVenue.location.lng,
-                    VenueName = selectedVenue.name
+                    VenueName = selectedVenue.name,
+                    userId= App.user.Id
+                    
                 };
                 //Creamos nueva conexión
-                using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
-                {
-                    // Creamos taba(Si ya existe se obiva)
-                    db.CreateTable<Post>();
-                    //Insertamos objeto
-                    int rows = db.Insert(post);
-                    if (rows > 0)
-                    {
-                        bool result = await DisplayAlert("Success", "Experience succesfully Saved", "OK", "Cancel");
-                        if (result) { await Navigation.PopAsync(); }
+                //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
+                //{
+                //    // Creamos taba(Si ya existe se obiva)
+                //    db.CreateTable<Post>();
+                //    //Insertamos objeto
+                //    int rows = db.Insert(post);
+                //    if (rows > 0)
+                //    {
+                //        bool result = await DisplayAlert("Success", "Experience succesfully Saved", "OK", "Cancel");
+                //        if (result) { await Navigation.PopAsync(); }
 
 
-                    }
-                    else
-                    {
-                        var result = await DisplayAlert("Error", "Something went wrong", "OK", "cancel");
+                //    }
+                //    else
+                //    {
+                //        var result = await DisplayAlert("Error", "Something went wrong", "OK", "cancel");
 
-                    }
+                //    }
 
-                }
+                //}
+
+                //AZURE db
+                await App.MobileService.GetTable<Post>().InsertAsync(post);
+                await DisplayAlert("Success", "Experience succesfully Inserted", "OK");
             }
             catch(NullReferenceException Nre)
             {
-
+                await DisplayAlert("Failure", "Experience failed to insert", "OK");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-
+                await DisplayAlert("Failure", "Experience failed to insert", "OK");
             }
           
         }

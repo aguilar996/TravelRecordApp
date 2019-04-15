@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.WindowsAzure.MobileServices;
+using System;
+using TravelRecordApp.Model;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,6 +11,11 @@ namespace TravelRecordApp
     {
         //Ubicación de la base de datos SQLite-net-PCL
         public static string DbLocation=string.Empty;
+        //Referencia a app client de Azure
+        public static MobileServiceClient MobileService =
+        new MobileServiceClient("https://travelrecord.azurewebsites.net");
+
+        public static User user = new User();
         public App()
         {
             InitializeComponent();

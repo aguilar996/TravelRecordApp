@@ -25,20 +25,22 @@ namespace TravelRecordApp
             using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))  
             {
                 var postTable = db.Table<Post>().ToList();
-                var categories = (from p in postTable
-                                  orderby p.CategoryId
-                                  select p.CategoryName).Distinct().ToList();
-              
+                //var categoriesDeprecated = (from p in postTable
+                //                  orderby p.CategoryId
+                //                  select p.CategoryName).Distinct().ToList();
+                var categories = postTable.OrderBy(x => x.CategoryId).Select(y=>y.CategoryName).Distinct().ToList();
 
                 Dictionary<string, int> categoriesCount = new Dictionary<string, int>();
                 foreach (var category in categories)
                 {
-                    var count = (from post in postTable
-                                 where post.CategoryName == category
-                                 select post).ToList().Count();
+                    //var countDeprecated = (from post in postTable 
+                    //where post.CategoryName == category 
+                    //  select post).ToList().Count();
+
+                    var count = postTable.Where(x => x.CategoryName == category).ToList().Count;
                     categoriesCount.Add(category, count);
                 }
-                    categoriesListView.ItemsSource = postTable.Count.ToString();
+                    categoriesListView.ItemsSource = categoriesCount;
                     postCountLabel.Text = postTable.Count.ToString();
                 
 

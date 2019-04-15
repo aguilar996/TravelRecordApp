@@ -16,7 +16,7 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding Path=Key}"
-                                  Detail="{Binding Path=Value}"></TextCell>
+                                  Detail="{Binding Path=Value}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

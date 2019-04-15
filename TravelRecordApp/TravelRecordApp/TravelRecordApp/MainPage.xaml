@@ -24,8 +24,15 @@
                 Clicked="Login_Clicked" 
                 Margin="0,50"
                 ></Button>
-        
-        
+
+        <Button x:Name="registerUserButton" 
+                Text="Register" 
+                    HorizontalOptions="End"
+               Clicked="RegisterUserButton_Clicked"
+                Margin="0,50"
+                ></Button>
+
+
     </StackLayout>
 
 </ContentPage>

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 
 using Foundation;
+using Microsoft.WindowsAzure.MobileServices;
 using UIKit;
 
 namespace TravelRecordApp.iOS
@@ -24,6 +25,8 @@ namespace TravelRecordApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            //referencia INIT a servicio Azure
+            CurrentPlatform.Init();
             //preparamos a iOS para usar XAmarin Forms Maps
             Xamarin.FormsMaps.Init();
             //Base de datos SQLite path para iPhone

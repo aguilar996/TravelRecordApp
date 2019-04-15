@@ -24,7 +24,7 @@ namespace TravelRecordApp.Model
 
         public int Distance { get; set; }
 
-
+        public string userId { get; set; }
 
     }
 }

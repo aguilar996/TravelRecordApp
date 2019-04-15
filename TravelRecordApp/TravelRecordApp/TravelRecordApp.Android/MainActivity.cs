@@ -10,6 +10,8 @@ using System.IO;
 using Xamarin.Forms.Maps;
 using Plugin.Permissions;
 using Plugin.CurrentActivity;
+using Microsoft.WindowsAzure.MobileServices;
+
 namespace TravelRecordApp.Droid
 {
     [Activity(Label = "TravelRecordApp", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -21,6 +23,8 @@ namespace TravelRecordApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+            //referencia INIT a servicio Azure
+            CurrentPlatform.Init();
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             //metodo init para maps
             Xamarin.FormsMaps.Init(this, savedInstanceState);
