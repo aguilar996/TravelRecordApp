@@ -99,6 +99,7 @@ namespace TravelRecordApp
                 //AZURE db
                 await App.MobileService.GetTable<Post>().InsertAsync(post);
                 await DisplayAlert("Success", "Experience succesfully Inserted", "OK");
+                await Navigation.PopAsync();
             }
             catch(NullReferenceException Nre)
             {
