@@ -74,7 +74,8 @@ namespace TravelRecordApp
                     userId= App.user.Id
                     
                 };
-                //Creamos nueva conexión
+
+                #region Creamos nueva conexión
                 //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
                 //{
                 //    // Creamos taba(Si ya existe se obiva)
@@ -95,6 +96,7 @@ namespace TravelRecordApp
                 //    }
 
                 //}
+                #endregion
 
                 //AZURE db
                 await App.MobileService.GetTable<Post>().InsertAsync(post);

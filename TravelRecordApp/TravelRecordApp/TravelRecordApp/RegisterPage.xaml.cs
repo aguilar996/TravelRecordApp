@@ -19,6 +19,9 @@ namespace TravelRecordApp
 
         private async void Register_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+
             if(Pass.Text==PassConfirm.Text)
             {
                 //register
@@ -27,12 +30,28 @@ namespace TravelRecordApp
                     Email = Email.Text,
                     Password=Pass.Text
                 };
-                await App.MobileService.GetTable<User>().InsertAsync(user);
+                var users = await App.MobileService.GetTable<User>().ToListAsync() as List<User>;
+                if (!users.Any(x => x.Email == user.Email))
+                {
+                    await App.MobileService.GetTable<User>().InsertAsync(user);
+                    await DisplayAlert("Correct", "Succesfully registered", "OK");
+                    await Navigation.PopAsync();
+                }
+                else
+                {
+                    await DisplayAlert("Error", "Already registered", "OK");
+
+                }
 
             }
             else
             {
               await DisplayAlert("Error", "Passwords must match","OK");
+            }
+            }
+            catch(Exception ex)
+            {
+
             }
         }
  

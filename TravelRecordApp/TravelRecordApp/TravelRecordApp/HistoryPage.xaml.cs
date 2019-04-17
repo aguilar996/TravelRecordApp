@@ -35,20 +35,25 @@ namespace TravelRecordApp
         //}
         #endregion
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();//No borrar
-            
-            //coneción a la base
-            using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
-            {
-                //Creación de tabla (si ya existe la pasa por alto)
-                db.CreateTable<Post>();
-                //Guardar resultados toList()
-                var post = db.Table<Post>().ToList();
-                //Pasamos la lista  aun objeto ListView
-                PostListView.ItemsSource = post;
-            }
+
+            //coneción a la base SQLite
+            //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
+            //{
+            //    //Creación de tabla (si ya existe la pasa por alto)
+            //    db.CreateTable<Post>();
+            //    //Guardar resultados toList()
+            //    var post = db.Table<Post>().ToList();
+            //    //Pasamos la lista  aun objeto ListView
+            //    PostListView.ItemsSource = post;
+            //}
+
+            //Conexion a la nube
+            var posts = await App.MobileService.GetTable<Post>()
+                .Where(x => x.userId == App.user.Id).ToListAsync();
+                PostListView.ItemsSource = posts;
         }
 
         //evento de elemento seleccionado

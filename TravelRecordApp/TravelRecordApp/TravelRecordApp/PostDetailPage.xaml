@@ -3,8 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TravelRecordApp.PostDetailPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="20,20,16,0">
             <Entry x:Name="ExperienceEntry"></Entry>
+            <Label x:Name="venueLabel"
+                   Margin="0,30,0,0"
+                   FontAttributes="Bold"
+                   FontSize="22"></Label>
+            <Label x:Name="categoryLabel"
+                   TextColor="CadetBlue"></Label>
+            <Label x:Name="addressLabel"
+                   FontSize="15"></Label>
+            <Label x:Name="codinatesLabel"
+                   FontSize="15"></Label>
+            <Label x:Name="distanceLabel"
+                   FontSize="15"></Label>
+           
+            
             <Button x:Name="UpdateButton"
                          Text="Update"
                          Clicked="UpdateButton_Clicked"></Button>

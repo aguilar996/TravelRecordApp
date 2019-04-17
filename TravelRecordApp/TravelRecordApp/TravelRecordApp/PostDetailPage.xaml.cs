@@ -22,54 +22,65 @@ namespace TravelRecordApp
             selectedPostGlobal = selectedPost;
             //asigno el texto de listado, al entry en pantalla.
             ExperienceEntry.Text = selectedPostGlobal.Experience;
+            venueLabel.Text = selectedPostGlobal.VenueName;
+            categoryLabel.Text = selectedPostGlobal.CategoryName;
+            addressLabel.Text = selectedPostGlobal.Address;
+            codinatesLabel.Text = selectedPostGlobal.longitud + " - " + selectedPostGlobal.latitude;
+            distanceLabel.Text = $"{selectedPostGlobal.Distance} m";
         }
 
         private async void UpdateButton_Clicked(object sender, EventArgs e)
         {
             selectedPostGlobal.Experience = ExperienceEntry.Text;
-
-            using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
-            {
-                //ver si ya existe la tabla
-                db.CreateTable<Post>();
-                //updateamos objeto
-                int rows = db.Update(selectedPostGlobal);
-                if (rows > 0)
-                {
-                    bool result = await DisplayAlert("Success", "Experience succesfully Updated", "OK", "Cancel");
-                    if (result) { await Navigation.PopAsync(); }
-
-
-                }
-                else
-                {
-                    var result = await DisplayAlert("Error", "Something went wrong", "OK", "cancel");
-
-                }
-            }
+            #region SQLite
+            //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
+            //{
+            //    //ver si ya existe la tabla
+            //    db.CreateTable<Post>();
+            //    //updateamos objeto
+            //    int rows = db.Update(selectedPostGlobal);
+            //    if (rows > 0)
+            //    {
+            //        bool result = await DisplayAlert("Success", "Experience succesfully Updated", "OK", "Cancel");
+            //        if (result) { await Navigation.PopAsync(); }
+            //    }
+            //    else
+            //    {
+            //        var result = await DisplayAlert("Error", "Something went wrong", "OK", "cancel");
+            //    }
+            //}
+            #endregion
+            //Azure
+            await App.MobileService.GetTable<Post>().UpdateAsync(selectedPostGlobal);
+            await DisplayAlert("Success", "Experience Updated", "Ok");
         }
 
         private async void DeleteButton_Clicked(object sender, EventArgs e)
         {
-            using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
-            {
-                //ver si ya existe la tabla
-                db.CreateTable<Post>();
-                //borramos objeto
-                int rows = db.Delete(selectedPostGlobal);
-                if (rows > 0)
-                {
-                    bool result = await DisplayAlert("Success", "Experience succesfully Deleted", "OK", "Cancel");
-                    if (result) { await Navigation.PopAsync(); }
+            #region SQLite
+            //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
+            //{
+            //    //ver si ya existe la tabla
+            //    db.CreateTable<Post>();
+            //    //borramos objeto
+            //    int rows = db.Delete(selectedPostGlobal);
+            //    if (rows > 0)
+            //    {
+            //        bool result = await DisplayAlert("Success", "Experience succesfully Deleted", "OK", "Cancel");
+            //        if (result) { await Navigation.PopAsync(); }
 
 
-                }
-                else
-                {
-                    var result = await DisplayAlert("Error", "Something went wrong", "OK", "cancel");
+            //    }
+            //    else
+            //    {
+            //        var result = await DisplayAlert("Error", "Something went wrong", "OK", "cancel");
 
-                }
-            }
+            //    }
+            //}
+            #endregion
+            //Azure
+            await App.MobileService.GetTable<Post>().DeleteAsync(selectedPostGlobal);
+            await DisplayAlert("Success", "Experience Deleted", "Ok");
         }
     }
 }

@@ -23,12 +23,8 @@ namespace TravelRecordApp
         private bool hasLocationPermission;
 		public MapPage ()
 		{
-       
-           
                 InitializeComponent();
                 GetPermissions();
-            
-
         }
 
         //Método que checkea si hay permisos de localizacion
@@ -88,16 +84,20 @@ namespace TravelRecordApp
                 await locator.StartListeningAsync(TimeSpan.Zero, 100);
             }
             GetLocation();
+            //Sqlite
+            //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
+            //{
+            //    //Creación de tabla (si ya existe la pasa por alto)
+            //    db.CreateTable<Post>();
+            //    //Guardar resultados toList()
+            //    var posts = db.Table<Post>().ToList();
+            //    DisplayInMap(posts);
+            //}
 
-            using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
-            {
-                //Creación de tabla (si ya existe la pasa por alto)
-                db.CreateTable<Post>();
-                //Guardar resultados toList()
-                var posts = db.Table<Post>().ToList();
-                DisplayInMap(posts);
-            }
-
+            //Azure db
+            var posts = await App.MobileService.GetTable<Post>()
+                .Where(p => p.Id == App.user.Id).ToListAsync();
+            DisplayInMap(posts);
         }
 
         private void DisplayInMap(List<Post> posts)

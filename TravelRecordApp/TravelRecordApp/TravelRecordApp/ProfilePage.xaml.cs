@@ -19,16 +19,21 @@ namespace TravelRecordApp
             
 		}
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
-            using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))  
-            {
-                var postTable = db.Table<Post>().ToList();
+            //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))  
+            //{
+            //SQLlite
+                //var postTable = db.Table<Post>().ToList();
+            //Azure
+                var postTable = await App.MobileService.GetTable<Post>()
+                .Where(p => p.Id == App.user.Id).ToListAsync();
+ 
                 //var categoriesDeprecated = (from p in postTable
                 //                  orderby p.CategoryId
                 //                  select p.CategoryName).Distinct().ToList();
-                var categories = postTable.OrderBy(x => x.CategoryId).Select(y=>y.CategoryName).Distinct().ToList();
+            var categories = postTable.OrderBy(x => x.CategoryId).Select(y=>y.CategoryName).Distinct().ToList();
 
                 Dictionary<string, int> categoriesCount = new Dictionary<string, int>();
                 foreach (var category in categories)
@@ -44,7 +49,7 @@ namespace TravelRecordApp
                     postCountLabel.Text = postTable.Count.ToString();
                 
 
-            }
+            //}
         }
     }
 }
