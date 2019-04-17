@@ -81,6 +81,7 @@ namespace TravelRecordApp
             //Azure
             await App.MobileService.GetTable<Post>().DeleteAsync(selectedPostGlobal);
             await DisplayAlert("Success", "Experience Deleted", "Ok");
+            await Navigation.PopAsync();
         }
     }
 }
