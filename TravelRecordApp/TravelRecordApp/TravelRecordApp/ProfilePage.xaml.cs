@@ -25,26 +25,15 @@ namespace TravelRecordApp
             //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))  
             //{
             //SQLlite
-                //var postTable = db.Table<Post>().ToList();
+            //var postTable = db.Table<Post>().ToList();
             //Azure
-                var postTable = await App.MobileService.GetTable<Post>()
-                .Where(p => p.Id == App.user.Id).ToListAsync();
- 
-                //var categoriesDeprecated = (from p in postTable
-                //                  orderby p.CategoryId
-                //                  select p.CategoryName).Distinct().ToList();
-            var categories = postTable.OrderBy(x => x.CategoryId).Select(y=>y.CategoryName).Distinct().ToList();
+            var postTable = await Post.Read();
+            
 
-                Dictionary<string, int> categoriesCount = new Dictionary<string, int>();
-                foreach (var category in categories)
-                {
-                    //var countDeprecated = (from post in postTable 
-                    //where post.CategoryName == category 
-                    //  select post).ToList().Count();
-
-                    var count = postTable.Where(x => x.CategoryName == category).ToList().Count;
-                    categoriesCount.Add(category, count);
-                }
+                    //var categoriesDeprecated = (from p in postTable
+                    //                  orderby p.CategoryId
+                    //                  select p.CategoryName).Distinct().ToList();
+                    var categoriesCount = Post.PostCategories(postTable);
                     categoriesListView.ItemsSource = categoriesCount;
                     postCountLabel.Text = postTable.Count.ToString();
                 

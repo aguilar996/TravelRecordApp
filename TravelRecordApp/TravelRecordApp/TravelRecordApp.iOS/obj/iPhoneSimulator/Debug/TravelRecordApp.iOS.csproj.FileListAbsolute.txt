@@ -66,16 +66,22 @@ D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp
 D:\Projetcs\CrossPlat App\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\TravelRecordApp.dll.mdb
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\TravelRecordApp.iOS.exe
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\TravelRecordApp.iOS.pdb
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Microsoft.Azure.Mobile.Client.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Extensions.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Primitives.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
-C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.pdb
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\PCLCrypto.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\PInvoke.BCrypt.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\PInvoke.Kernel32.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\PInvoke.NCrypt.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\PInvoke.Windows.Core.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Validation.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Geolocator.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb

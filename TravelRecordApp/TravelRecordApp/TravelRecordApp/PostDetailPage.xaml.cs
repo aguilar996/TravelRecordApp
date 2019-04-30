@@ -21,12 +21,12 @@ namespace TravelRecordApp
             //en el método, para así usarla en update y delete
             selectedPostGlobal = selectedPost;
             //asigno el texto de listado, al entry en pantalla.
-            ExperienceEntry.Text = selectedPostGlobal.Experience;
-            venueLabel.Text = selectedPostGlobal.VenueName;
-            categoryLabel.Text = selectedPostGlobal.CategoryName;
-            addressLabel.Text = selectedPostGlobal.Address;
-            codinatesLabel.Text = selectedPostGlobal.longitud + " - " + selectedPostGlobal.latitude;
-            distanceLabel.Text = $"{selectedPostGlobal.Distance} m";
+            //ExperienceEntry.Text = selectedPostGlobal.Experience;
+            //venueLabel.Text = selectedPostGlobal.VenueName;
+            //categoryLabel.Text = selectedPostGlobal.CategoryName;
+            //addressLabel.Text = selectedPostGlobal.Address;
+            //codinatesLabel.Text = selectedPostGlobal.longitud + " - " + selectedPostGlobal.latitude;
+            //distanceLabel.Text = $"{selectedPostGlobal.Distance} m";
         }
 
         private async void UpdateButton_Clicked(object sender, EventArgs e)

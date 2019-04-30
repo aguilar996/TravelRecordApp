@@ -8,8 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using TravelRecordApp.Model;
 using SQLite;
-using Plugin.Geolocator;
-using TravelRecordApp.Logic;
+using Plugin.Geolocator; 
 
 namespace TravelRecordApp
 {
@@ -28,9 +27,13 @@ namespace TravelRecordApp
             var locator = CrossGeolocator.Current;
             //objeto posicion para obtener posición actual
             var position = await locator.GetPositionAsync();
+            //.NET Standart
             //llamamos a la logica de Venues y le enviamos Logitud y latitud actual
-            var venues = await VenueLogic.GetVenues(position.Latitude, position.Longitude);
-            venueListView.ItemsSource = venues;
+             
+
+            //MVVM
+            var venues = Venue.GetVenues(position.Latitude, position.Longitude);
+            venueListView.ItemsSource = venues as IEnumerable<Venue>;
         }
 
         #region deprecated
@@ -68,10 +71,10 @@ namespace TravelRecordApp
                     CategoryName = firstCat.name,
                     Address = selectedVenue.location.address,
                     Distance = selectedVenue.location.distance,
-                    latitude = selectedVenue.location.lat,
-                    longitud = selectedVenue.location.lng,
+                    Latitude = selectedVenue.location.lat,
+                    Longitud = selectedVenue.location.lng,
                     VenueName = selectedVenue.name,
-                    userId= App.user.Id
+                    UserId= App.user.Id
                     
                 };
 
@@ -98,8 +101,11 @@ namespace TravelRecordApp
                 //}
                 #endregion
 
-                //AZURE db
-                await App.MobileService.GetTable<Post>().InsertAsync(post);
+                ////AZURE db
+                //await App.MobileService.GetTable<Post>().InsertAsync(post);
+
+                //MVVM
+                Post.Insert(post);
                 await DisplayAlert("Success", "Experience succesfully Inserted", "OK");
                 await Navigation.PopAsync();
             }

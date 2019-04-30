@@ -14,11 +14,13 @@
         <Entry x:Name="User" 
                Placeholder="Email"
                Keyboard="Email"
-                TextColor="{StaticResource Texto}"></Entry>
+                TextColor="{StaticResource Texto}"
+               Text="{Binding Email}"></Entry>
         <Entry x:Name="Pass" 
                Placeholder="Password"
                IsPassword="True"
-                TextColor="{StaticResource Texto}"></Entry>
+                TextColor="{StaticResource Texto}"
+               Text="{Binding Password}"></Entry>
         <Button x:Name="Login" 
                 Text="Log In" 
                 Clicked="Login_Clicked" 

@@ -13,39 +13,19 @@ namespace TravelRecordApp
         public MainPage()
         {
             InitializeComponent();
+            //Imagen
             var assembly = typeof(MainPage);
             iconImage.Source = ImageSource.FromResource("TravelRecordApp.Assets.Images.plane.png", assembly);
         }
 
         private async void Login_Clicked(object sender, EventArgs e)
         {
-
-            if(string.IsNullOrEmpty(User.Text)|| string.IsNullOrEmpty(Pass.Text))
-            {
-
-            }
+            bool canLogin = await Model.User.Login(User.Text,Pass.Text);
+            if (canLogin)
+            { await Navigation.PushAsync(new HomePage()); }
             else
-            {
-                var user =  (await App.MobileService.GetTable<User>().Where(
-                    x=>x.Email == User.Text).ToListAsync()).FirstOrDefault();
-                if(user!=null)
-                {
-                    App.user = user;
-                    if (user.Password==Pass.Text)
-                    {
-                        await Navigation.PushAsync(new HomePage());
-                    }
-                    else
-                    {
-                        await DisplayAlert("Error", "Email or Password Incorrect", "Ok");
-                    }
-                }
-                else
-                {
-                    await DisplayAlert("Error", "Error logging you In", "Ok");
-                }
+            { await DisplayAlert("Error", "Email or Password Incorrect", "Ok"); }
 
-            }
         }
 
         private void RegisterUserButton_Clicked(object sender, EventArgs e)

@@ -1,13 +1,97 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace TravelRecordApp.Model
 {
-    public class User
+    //1.Usamos  : INotifyPropertyChanged
+    //2.Agregamos using System.ComponentModel;
+    //3.Generamos la interface
+    //4.Agregamos SNIPPET
+    public class User: INotifyPropertyChanged
     {
-        public string Id { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+
+        //5.Hacemos PROPFULL de todas las entidades
+        private string id;
+
+        public string Id
+        {
+            get { return id; }
+            set {
+                id = value;
+                OnPropertyChange("Id");
+            }
+        }
+
+
+
+        private string email;
+
+        public string Email
+        {
+            get { return email; }
+            set { email = value;
+                OnPropertyChange("Email");
+            }
+        }
+
+
+        private string password;
+
+        public string Password
+        {
+            get { return password; }
+            set { password = value;
+                OnPropertyChange("Password");
+            }
+        }
+
+        //Interface
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public static async Task<bool> Login(string email_user, string password)
+        {
+            if (string.IsNullOrEmpty(email_user) || string.IsNullOrEmpty(password))
+            {
+                return false;
+            }
+            else
+            {
+                var user = await App.MobileService.GetTable<User>().ToListAsync();
+                var user2 = user.Where(x => x.Email == email_user).FirstOrDefault();
+
+                if (user != null)
+                {
+                    App.user = user.FirstOrDefault();
+                    if (user.FirstOrDefault().Password == password)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+
+            }
+        }
+
+        public static async void Register(User user)
+        {
+            await App.MobileService.GetTable<User>().InsertAsync(user);
+        }
+
+        //SNIPPET
+        private void OnPropertyChange(string propertyName)
+        {
+            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

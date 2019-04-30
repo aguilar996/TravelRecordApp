@@ -50,10 +50,9 @@ namespace TravelRecordApp
             //    PostListView.ItemsSource = post;
             //}
 
-            //Conexion a la nube
-            var posts = await App.MobileService.GetTable<Post>()
-                .Where(x => x.userId == App.user.Id).ToListAsync();
-                PostListView.ItemsSource = posts;
+
+            var posts = Post.Read();
+            PostListView.ItemsSource = posts as IEnumerable<Post>;
         }
 
         //evento de elemento seleccionado

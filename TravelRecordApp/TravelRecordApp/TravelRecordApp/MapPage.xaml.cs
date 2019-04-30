@@ -95,8 +95,7 @@ namespace TravelRecordApp
             //}
 
             //Azure db
-            var posts = await App.MobileService.GetTable<Post>()
-                .Where(p => p.Id == App.user.Id).ToListAsync();
+            var posts = await Post.Read();
             DisplayInMap(posts);
         }
 
@@ -107,7 +106,7 @@ namespace TravelRecordApp
                 try
                 {
 
-                var position = new Xamarin.Forms.Maps.Position(post.latitude,post.longitud);
+                var position = new Xamarin.Forms.Maps.Position(post.Latitude, post.Longitud);
                 var pin = new Pin()
                 {
                     Type = PinType.SavedPin,
