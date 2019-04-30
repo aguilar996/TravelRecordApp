@@ -148,6 +148,7 @@ namespace TravelRecordApp.Model
         //Property Change Event setter
         private void OnPropertyChange(string propertyName)
         {
+            if(PropertyChanged!=null)
             PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
     }

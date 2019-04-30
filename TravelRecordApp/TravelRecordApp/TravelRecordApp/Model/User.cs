@@ -60,13 +60,13 @@ namespace TravelRecordApp.Model
             }
             else
             {
-                var user = await App.MobileService.GetTable<User>().ToListAsync();
-                var user2 = user.Where(x => x.Email == email_user).FirstOrDefault();
-
+                var user = (await App.MobileService.GetTable<User>()
+                    .Where(x => x.Email == email_user).ToListAsync())
+                    .FirstOrDefault(); 
                 if (user != null)
                 {
-                    App.user = user.FirstOrDefault();
-                    if (user.FirstOrDefault().Password == password)
+                    App.user = user;
+                    if (user.Password == password)
                     {
                         return true;
                     }
@@ -91,7 +91,8 @@ namespace TravelRecordApp.Model
         //SNIPPET
         private void OnPropertyChange(string propertyName)
         {
-            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

@@ -10,12 +10,15 @@ namespace TravelRecordApp
 {
     public partial class MainPage : ContentPage
     {
+        User user;
         public MainPage()
         {
             InitializeComponent();
             //Imagen
             var assembly = typeof(MainPage);
             iconImage.Source = ImageSource.FromResource("TravelRecordApp.Assets.Images.plane.png", assembly);
+            user = new User();
+            containerStackLayout.BindingContext = user;
         }
 
         private async void Login_Clicked(object sender, EventArgs e)

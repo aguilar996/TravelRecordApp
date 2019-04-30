@@ -12,7 +12,7 @@
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout x:Name="containerStackLayout"> 
             <Entry x:Name="ExperienceEntry"
                    Placeholder="Write your experience"></Entry>
             <ListView x:Name="venueListView"

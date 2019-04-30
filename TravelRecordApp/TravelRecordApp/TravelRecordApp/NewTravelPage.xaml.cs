@@ -15,9 +15,12 @@ namespace TravelRecordApp
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class NewTravelPage : ContentPage
 	{
+        Post post;
 		public NewTravelPage ()
 		{
 			InitializeComponent ();
+            post =  new Post();
+            containerStackLayout.BindingContext = post;
 		}
         //sobre escribo el metodo on appear para que consulte cada vez que aparece la página de nuevo viaje
         protected override async void OnAppearing()
@@ -64,19 +67,18 @@ namespace TravelRecordApp
                 //recuoperamos la primera categoria de la lista de categorias
                 var firstCat = selectedVenue.categories.FirstOrDefault();
                 //creamos objeto con los entrys
-                Post post = new Post()
-                {
-                    Experience = ExperienceEntry.Text,
-                    CategoryId = firstCat.id,
-                    CategoryName = firstCat.name,
-                    Address = selectedVenue.location.address,
-                    Distance = selectedVenue.location.distance,
-                    Latitude = selectedVenue.location.lat,
-                    Longitud = selectedVenue.location.lng,
-                    VenueName = selectedVenue.name,
-                    UserId= App.user.Id
-                    
-                };
+                //Post post = new Post()
+                //{
+                post.Experience = ExperienceEntry.Text;
+                post.CategoryId = firstCat.id;
+                post.CategoryName = firstCat.name;
+                post.Address = selectedVenue.location.address;
+                post.Distance = selectedVenue.location.distance;
+                post.Latitude = selectedVenue.location.lat;
+                post.Longitud = selectedVenue.location.lng;
+                post.VenueName = selectedVenue.name;
+                post.UserId = App.user.Id;
+                //};
 
                 #region Creamos nueva conexión
                 //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
