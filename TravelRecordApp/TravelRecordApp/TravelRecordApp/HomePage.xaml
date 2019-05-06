@@ -4,7 +4,7 @@
              x:Class="TravelRecordApp.HomePage"
             xmlns:local="clr-namespace:TravelRecordApp">
     <TabbedPage.ToolbarItems>
-        <ToolbarItem Text="Add" x:Name="Add" Clicked="Add_Clicked"></ToolbarItem>
+        <ToolbarItem Text="Add" x:Name="Add" Command="{Binding NavCommand}"></ToolbarItem>
     </TabbedPage.ToolbarItems>
     <local:HistoryPage Title="History"
                        Icon="home.png"></local:HistoryPage>

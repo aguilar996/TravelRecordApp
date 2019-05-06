@@ -12,19 +12,23 @@
                HorizontalOptions="FillAndExpand"
                Margin="0,0,0,50"
                HeightRequest="50"/>
-        <Entry x:Name="User" 
+        <Entry x:Name="INotifyPropertyChanged" 
                Placeholder="Email"
                Keyboard="Email"
                 TextColor="{StaticResource Texto}"
-               Text="{Binding Email,Mode=TwoWay}"></Entry>
-        <Entry x:Name="Pass" 
+                      Text="{Binding Email, Mode=TwoWay}">
+        </Entry>
+        <Entry x:Name="passwordEntry" 
                Placeholder="Password"
                IsPassword="True"
                 TextColor="{StaticResource Texto}"
-               Text="{Binding Password,Mode=TwoWay}"></Entry>
+               Text="{Binding Password, Mode=TwoWay}">
+            
+        </Entry>
         <Button x:Name="Login" 
                 Text="Log In" 
-                Clicked="Login_Clicked" 
+                Command="{Binding LoginCommand}"
+                CommandParameter="{Binding User}"
                 Margin="0,50"
                 ></Button>
 

@@ -23,7 +23,7 @@
                 TextColor="{StaticResource Texto}"></Entry>
             <Button x:Name="register" 
                 Text="Register" 
-                Clicked="Register_Clicked" 
+                Command="{Binding RegisterNavigationCommand}"
                 Margin="0,50"
                 ></Button>
         </StackLayout>

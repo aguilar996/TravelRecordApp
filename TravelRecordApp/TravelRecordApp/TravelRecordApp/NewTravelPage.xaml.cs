@@ -32,11 +32,11 @@ namespace TravelRecordApp
             var position = await locator.GetPositionAsync();
             //.NET Standart
             //llamamos a la logica de Venues y le enviamos Logitud y latitud actual
-             
+
 
             //MVVM
-            var venues = Venue.GetVenues(position.Latitude, position.Longitude);
-            venueListView.ItemsSource = venues as IEnumerable<Venue>;
+            List<Venue> venues = await  Venue.GetVenues(position.Latitude, position.Longitude) ;
+            venueListView.ItemsSource = venues;
         }
 
         #region deprecated

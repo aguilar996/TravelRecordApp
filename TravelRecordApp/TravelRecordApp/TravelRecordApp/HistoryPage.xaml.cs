@@ -51,8 +51,8 @@ namespace TravelRecordApp
             //}
 
 
-            var posts = Post.Read();
-            PostListView.ItemsSource = posts as IEnumerable<Post>;
+            List<Post> posts =await  Post.Read();
+            PostListView.ItemsSource = posts;
         }
 
         //evento de elemento seleccionado

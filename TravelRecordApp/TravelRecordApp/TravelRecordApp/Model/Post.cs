@@ -126,9 +126,8 @@ namespace TravelRecordApp.Model
 
         public static async Task<List<Post>> Read()
         {
-           var posts= await App.MobileService.GetTable<Post>()
-                .Where(x => x.userId == App.user.Id).ToListAsync();
-            return posts;
+            var posts = await App.MobileService.GetTable<Post>().Where(p => p.UserId == App.user.Id).ToListAsync();
+            return posts as List<Post>;
         }
 
         public static Dictionary<string,int> PostCategories(List<Post> posts)
