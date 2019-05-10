@@ -6,18 +6,22 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Save" 
                      x:Name="Save" 
-                     Clicked="Save_Clicked"
+                     Command="{Binding PostCommand}"
+                     CommandParameter="{Binding Post}"
                      Icon="save.png"></ToolbarItem>
       
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
-        <StackLayout x:Name="containerStackLayout"> 
+        <StackLayout x:Name="containerStackLayout" >
             <Entry x:Name="ExperienceEntry"
-                   Placeholder="Write your experience"></Entry>
+                   Placeholder="Write your experience"
+                    Text="{Binding Experience, Mode=TwoWay}"
+                   ></Entry>
             <ListView x:Name="venueListView"
                       HorizontalOptions="FillAndExpand"
-                      Margin="20,0">
+                      Margin="20,0"
+                      SelectedItem="{Binding Venue, Mode=TwoWay}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

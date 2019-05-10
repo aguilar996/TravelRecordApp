@@ -19,7 +19,7 @@ namespace TravelRecordApp.ViewModel.Commands
             ViewModel = viewModel;
         }
         public bool CanExecute(object parameter)
-        {//2. Adjuntamos la logica de CanExecute
+        {//2. Adjuntamos la logica de CanExecute (no recie objeto porq solo es navigation)
             return true;
         }
 

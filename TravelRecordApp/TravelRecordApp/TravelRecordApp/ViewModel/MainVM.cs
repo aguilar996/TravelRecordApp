@@ -9,7 +9,7 @@ namespace TravelRecordApp.ViewModel
 {  
         public class MainVM : INotifyPropertyChanged
         {
-        #region Listado de Comandos en VM y  Contrsuctor
+        #region Listado de Comandos en VM y  Constructor
             public LoginCommand LoginCommand { get; set; }
             public RegisterNavigationCommand RegNavigationCommand { get; set; }
             public MainVM()

@@ -18,12 +18,14 @@
                IsPassword="True"
                 TextColor="{StaticResource Texto}"></Entry>
             <Entry x:Name="PassConfirm" 
+                    Text="{Binding ConfPassword,Mode=TwoWay}"
                Placeholder="Confirm Password"
                IsPassword="True"
                 TextColor="{StaticResource Texto}"></Entry>
             <Button x:Name="register" 
                 Text="Register" 
-                Command="{Binding RegisterNavigationCommand}"
+                Command="{Binding RegisterCommand }"
+                    CommandParameter="{Binding User}"
                 Margin="0,50"
                 ></Button>
         </StackLayout>

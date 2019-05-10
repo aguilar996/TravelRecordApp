@@ -49,6 +49,18 @@ namespace TravelRecordApp.Model
             }
         }
 
+        private string confpassword;
+
+        public string ConfPassword
+        {
+            get { return confpassword; }
+            set
+            {
+                confpassword = value;
+                OnPropertyChange("ConfPassword");
+            }
+        }
+
         //Interface
         public event PropertyChangedEventHandler PropertyChanged;
 
