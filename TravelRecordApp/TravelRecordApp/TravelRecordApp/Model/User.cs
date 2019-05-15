@@ -72,6 +72,9 @@ namespace TravelRecordApp.Model
             }
             else
             {
+                try
+                {
+
                 var user = (await App.MobileService.GetTable<User>()
                     .Where(x => x.Email == email_user).ToListAsync())
                     .FirstOrDefault(); 
@@ -91,13 +94,29 @@ namespace TravelRecordApp.Model
                 {
                     return false;
                 }
+                }
+                catch(Exception e)
+                {
+                    await App.Current.MainPage.DisplayAlert("Error", e.Message, "OK");
+                    return false;
+                }
 
             }
         }
 
         public static async void Register(User user)
         {
+            try
+            {
             await App.MobileService.GetTable<User>().InsertAsync(user);
+            await App.Current.MainPage.DisplayAlert("Success", "User Inserted correctly", "OK");
+            }
+            catch(Exception e)
+            {
+                await App.Current.MainPage.DisplayAlert("Error", e.Message, "OK");
+
+            }
+
         }
 
         //SNIPPET

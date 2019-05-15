@@ -15,15 +15,16 @@ namespace TravelRecordApp
     {
         //Para Two Way comunication View con Viewmodel
         //Creamos un nuevo usuario global
-        User user;
+      //  User user;
         RegisterVM viewModel;
         public RegisterPage()
         {
             InitializeComponent();
             //lo incializamos
-            user = new User();
+            //  user = new User();
             ////seteamos el layout entero con su bInding Context apuntando a ese usuario
             //containerStackLayout.BindingContext=user;
+            viewModel = new RegisterVM();
             BindingContext = viewModel;
         }
 

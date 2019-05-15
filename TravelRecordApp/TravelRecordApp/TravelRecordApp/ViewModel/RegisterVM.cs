@@ -82,7 +82,7 @@ namespace TravelRecordApp.ViewModel
                     Password = this.Password,
                     ConfPassword = this.ConfPassword
                 };
-                OnPropertyChanged("Password");
+                OnPropertyChanged("ConfPassword");
             }
 
         }

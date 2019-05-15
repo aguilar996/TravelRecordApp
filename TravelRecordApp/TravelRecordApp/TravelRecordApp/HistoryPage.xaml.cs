@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TravelRecordApp.Model;
+using TravelRecordApp.ViewModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,9 +14,12 @@ namespace TravelRecordApp
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class HistoryPage : ContentPage
 	{
+        HistoryVM viewModel;
 		public HistoryPage ()
 		{
 			InitializeComponent ();
+            viewModel = new HistoryVM();
+            BindingContext = viewModel;
 		}
         #region deprecated
         //ANTIGUO CON CLOSE 
@@ -37,8 +41,7 @@ namespace TravelRecordApp
 
         protected override async void OnAppearing()
         {
-            base.OnAppearing();//No borrar
-
+            base.OnAppearing();
             //coneción a la base SQLite
             //using (SQLiteConnection db = new SQLiteConnection(App.DbLocation))
             //{
@@ -49,10 +52,8 @@ namespace TravelRecordApp
             //    //Pasamos la lista  aun objeto ListView
             //    PostListView.ItemsSource = post;
             //}
-
-
-            List<Post> posts =await  Post.Read();
-            PostListView.ItemsSource = posts;
+            viewModel.UpdatePosts();
+            //PostListView.ItemsSource = posts;
         }
 
         //evento de elemento seleccionado

@@ -19,7 +19,6 @@ namespace TravelRecordApp
         public App()
         {
             InitializeComponent();
-
             MainPage = new NavigationPage(new MainPage());
         }
         //Nuevo Constructor
@@ -29,8 +28,9 @@ namespace TravelRecordApp
             MainPage = new NavigationPage(new MainPage());
             //asignamos la dirección que recibe el constructor
             DbLocation = db;
-        }
 
+        }
+        
         protected override void OnStart()
         {
             // Handle when your app starts

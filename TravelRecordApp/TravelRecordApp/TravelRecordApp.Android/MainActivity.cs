@@ -23,11 +23,11 @@ namespace TravelRecordApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-            //referencia INIT a servicio Azure
-            CurrentPlatform.Init();
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             //metodo init para maps
             Xamarin.FormsMaps.Init(this, savedInstanceState);
+            //referencia INIT a servicio Azure
+            CurrentPlatform.Init();
             //Init de permisos
              CrossCurrentActivity.Current.Init(this, savedInstanceState);
             //Base de datos SQLite path para android
