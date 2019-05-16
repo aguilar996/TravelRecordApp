@@ -10,6 +10,8 @@ using TravelRecordApp.Model;
 using SQLite;
 using Plugin.Geolocator;
 using TravelRecordApp.ViewModel;
+using Plugin.Permissions;
+using Plugin.Permissions.Abstractions;
 
 namespace TravelRecordApp
 {
@@ -27,18 +29,47 @@ namespace TravelRecordApp
         //sobre escribo el metodo on appear para que consulte cada vez que aparece la página de nuevo viaje
         protected override async void OnAppearing()
         {
-            base.OnAppearing(); 
-            //Objeto locator para obtener el GPS
-            var locator = CrossGeolocator.Current;
-            //objeto posicion para obtener posición actual
-            var position = await locator.GetPositionAsync();
-            //.NET Standart
-            //llamamos a la logica de Venues y le enviamos Logitud y latitud actual
+            base.OnAppearing();
+
+            try
+            {
+                var status = await CrossPermissions.Current.CheckPermissionStatusAsync(Permission.Location);
+                if(status!= PermissionStatus.Granted)
+                {
+                    if(await CrossPermissions.Current.ShouldShowRequestPermissionRationaleAsync(Permission.Location))
+                    {
+                        await DisplayAlert("Need Permission", "We need to acces your location", "OK");
+                    }
+                    var results = await CrossPermissions.Current.RequestPermissionsAsync(Permission.Location);
+                    if (results.ContainsKey(Permission.Location))
+                    {
+                        status = results[Permission.Location];
+                    }
+                }
+                if (status == PermissionStatus.Granted)
+                {
+                
+                    //Objeto locator para obtener el GPS
+                    var locator = CrossGeolocator.Current;
+                    //objeto posicion para obtener posición actual
+                    var position = await locator.GetPositionAsync();
+                    //.NET Standart
+                    //llamamos a la logica de Venues y le enviamos Logitud y latitud actual
 
 
-            //MVVM
-            List<Venue> venues = await  Venue.GetVenues(position.Latitude, position.Longitude) ;
-            venueListView.ItemsSource = venues;
+                    //MVVM
+                    List<Venue> venues = await Venue.GetVenues(position.Latitude, position.Longitude);
+                    venueListView.ItemsSource = venues;
+                }
+                else
+                {
+                        await DisplayAlert("Need Permission", "We need to acces your location", "OK");
+                } 
+            }
+            catch(Exception e)
+            {
+
+            }
         }
 
         #region deprecated

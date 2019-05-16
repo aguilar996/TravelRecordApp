@@ -24,6 +24,8 @@ namespace TravelRecordApp.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            //render más rápido. omite el Renderer y deja solo el elemento al correr el app
+            global::Xamarin.Forms.Forms.SetFlags("FastRederers_Experimental");
             global::Xamarin.Forms.Forms.Init();
             //referencia INIT a servicio Azure
             CurrentPlatform.Init();

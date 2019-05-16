@@ -30,5 +30,10 @@ namespace TravelRecordApp.ViewModel
                 }
             }
         }
+
+        public async void DeletePost(Post post)
+        {
+             await Post.Delete(post);          
+        }
     }
 }

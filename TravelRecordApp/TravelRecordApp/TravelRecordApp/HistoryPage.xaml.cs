@@ -65,5 +65,25 @@ namespace TravelRecordApp
                 Navigation.PushAsync(new PostDetailPage(SelectedItem));
             }
         }
+
+        private void MenuItem_Clicked(object sender, EventArgs e)
+        {
+            var post = (Post)(((MenuItem)sender).CommandParameter);
+            viewModel.DeletePost(post);
+
+            viewModel.UpdatePosts();
+
+        }
+
+        private void PostListView_Refreshing(object sender, EventArgs e)
+        {
+            viewModel.UpdatePosts();
+            //Desaparecer el icono de refresh 2 formas
+            //Forma 1 hay q convertir el Update post en task bool para que se llame cuando se hayan refrescado los posts
+           // PostListView.IsRefreshing = false;
+            //Forma 2
+            PostListView.EndRefresh();
+
+        }
     }
 }

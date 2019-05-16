@@ -5,6 +5,7 @@
              x:Class="TravelRecordApp.MainPage">
 
     <StackLayout VerticalOptions="Center" 
+                 CompressedLayout.IsHeadless="True"
                  Margin="20,0"
                  x:Name="containerStackLayout">
         <Image x:Name="iconImage"

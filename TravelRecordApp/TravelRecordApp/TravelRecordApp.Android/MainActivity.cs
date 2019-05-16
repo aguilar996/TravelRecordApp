@@ -23,6 +23,8 @@ namespace TravelRecordApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+            //render más rápido. omite el Renderer y deja solo el elemento al correr el app
+            global::Xamarin.Forms.Forms.SetFlags("FastRederers_Experimental");
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             //metodo init para maps
             Xamarin.FormsMaps.Init(this, savedInstanceState);

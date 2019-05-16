@@ -8,16 +8,14 @@
                      x:Name="Save" 
                      Command="{Binding PostCommand}"
                      CommandParameter="{Binding Post}"
-                     Icon="save.png"></ToolbarItem>
-      
+                     Icon="save.png"></ToolbarItem>      
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
         <StackLayout x:Name="containerStackLayout" >
             <Entry x:Name="ExperienceEntry"
                    Placeholder="Write your experience"
-                    Text="{Binding Experience, Mode=TwoWay}"
-                   ></Entry>
+                    Text="{Binding Experience, Mode=TwoWay}"></Entry>
             <ListView x:Name="venueListView"
                       HorizontalOptions="FillAndExpand"
                       Margin="20,0"
