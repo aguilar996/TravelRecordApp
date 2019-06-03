@@ -437,6 +437,10 @@ C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelR
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\stamp\_CopyMdbFiles.stamp
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\stamp\_CopyPdbFiles.stamp
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\linksrc\Microsoft.Azure.Mobile.Client.SQLiteStore.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\linksrc\System.ObjectModel.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\Microsoft.Azure.Mobile.Client.SQLiteStore.dll
+C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\System.ObjectModel.dll
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\android\assets\machine.config
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
 C:\Users\LV412AR\Documents\GitHub\Jd_app\TravelRecordApp\TravelRecordApp\TravelRecordApp.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp

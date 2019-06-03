@@ -113,6 +113,7 @@ class MonoPackageManager_Resources {
 		"TravelRecordApp.Android.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.Azure.Mobile.Client.dll",
+		"Microsoft.Azure.Mobile.Client.SQLiteStore.dll",
 		"Newtonsoft.Json.dll",
 		"PCLCrypto.dll",
 		"PInvoke.BCrypt.dll",

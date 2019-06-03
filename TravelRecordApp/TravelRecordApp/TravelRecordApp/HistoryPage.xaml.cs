@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TravelRecordApp.Helpers;
 using TravelRecordApp.Model;
 using TravelRecordApp.ViewModel;
 using Xamarin.Forms;
@@ -53,6 +54,8 @@ namespace TravelRecordApp
             //    PostListView.ItemsSource = post;
             //}
             viewModel.UpdatePosts();
+            //Refrescamos local y luego en nube 
+            await AzureAppServiceHelper.SyncAsync();
             //PostListView.ItemsSource = posts;
         }
 
@@ -75,12 +78,14 @@ namespace TravelRecordApp
 
         }
 
-        private void PostListView_Refreshing(object sender, EventArgs e)
+        private async void PostListView_Refreshing(object sender, EventArgs e)
         {
             viewModel.UpdatePosts();
+            //Refrescamos local y luego en nube 
+            await AzureAppServiceHelper.SyncAsync();
             //Desaparecer el icono de refresh 2 formas
             //Forma 1 hay q convertir el Update post en task bool para que se llame cuando se hayan refrescado los posts
-           // PostListView.IsRefreshing = false;
+            // PostListView.IsRefreshing = false;
             //Forma 2
             PostListView.EndRefresh();
 

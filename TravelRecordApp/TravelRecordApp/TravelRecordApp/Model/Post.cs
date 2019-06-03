@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.WindowsAzure.MobileServices;
+using Newtonsoft.Json;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -167,14 +168,22 @@ namespace TravelRecordApp.Model
 
         public static async void Insert(Post post)
         {
-            await App.MobileService.GetTable<Post>().InsertAsync(post);
+            //Nube
+            // await App.MobileService.GetTable<Post>().InsertAsync(post);
+            //Local + Nube
+            await App.postsTable.InsertAsync(post);
+            await App.MobileService.SyncContext.PushAsync();
         }
 
         public static async Task<bool> Delete(Post post)
         {
             try
             {
-                await App.MobileService.GetTable<Post>().DeleteAsync(post);
+                //Nube
+                //  await App.MobileService.GetTable<Post>().DeleteAsync(post);
+                //Local + Nube
+                await App.postsTable.DeleteAsync(post);
+                await App.MobileService.SyncContext.PushAsync();
                 return true;
 
             }
@@ -185,7 +194,12 @@ namespace TravelRecordApp.Model
         }
         public static async Task<List<Post>> Read()
         {
-            var posts = await App.MobileService.GetTable<Post>().Where(p => p.UserId == App.user.Id).ToListAsync();
+            //Nube
+            //var posts = await App.MobileService.GetTable<Post>().Where(p => p.UserId == App.user.Id).ToListAsync();
+
+            //Local + Nube
+            var posts = await App.postsTable.Where(p => p.UserId == App.user.Id).ToListAsync();
+
             return posts as List<Post>;
         }
 

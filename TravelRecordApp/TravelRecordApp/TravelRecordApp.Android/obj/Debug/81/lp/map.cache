@@ -1,5 +1,6 @@
 FormsViewGroup
 Microsoft.Azure.Mobile.Client
+Microsoft.Azure.Mobile.Client.SQLiteStore
 Newtonsoft.Json
 PCLCrypto
 PInvoke.BCrypt
@@ -51,6 +52,12 @@ Xamarin.GooglePlayServices.Basement
 Xamarin.GooglePlayServices.Maps
 Xamarin.GooglePlayServices.Tasks
 netstandard
-System.Reflection.Extensions
 System.Resources.ResourceManager
+System.Diagnostics.Debug
+System.Collections
+System.Threading
+System.Threading.Tasks
 System.Diagnostics.Tools
+System.Globalization
+System.ObjectModel
+System.Reflection.Extensions
