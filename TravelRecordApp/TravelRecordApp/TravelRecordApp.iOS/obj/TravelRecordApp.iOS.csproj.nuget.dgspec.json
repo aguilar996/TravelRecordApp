@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj": {}
+    "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj": {
+    "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
+        "projectUniqueName": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
         "projectName": "TravelRecordApp.iOS",
-        "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
-        "packagesPath": "C:\\Users\\LV412AR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\obj\\",
+        "projectPath": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\TravelRecordApp.iOS.csproj",
+        "packagesPath": "C:\\Users\\aguil\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aguil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
-                "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj"
+              "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
+                "projectPath": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj"
               }
             }
           }
@@ -89,21 +89,20 @@
         }
       }
     },
-    "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
+    "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj",
+        "projectUniqueName": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj",
         "projectName": "TravelRecordApp",
-        "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj",
-        "packagesPath": "C:\\Users\\LV412AR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\obj\\",
+        "projectPath": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj",
+        "packagesPath": "C:\\Users\\aguil\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aguil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -172,10 +171,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

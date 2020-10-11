@@ -5203,24 +5203,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LV412AR\\.nuget\\packages\\": {},
+    "C:\\Users\\aguil\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.Android\\TravelRecordApp.Android.csproj",
+      "projectUniqueName": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.Android\\TravelRecordApp.Android.csproj",
       "projectName": "TravelRecordApp.Android",
-      "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.Android\\TravelRecordApp.Android.csproj",
-      "packagesPath": "C:\\Users\\LV412AR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.Android\\obj\\",
+      "projectPath": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.Android\\TravelRecordApp.Android.csproj",
+      "packagesPath": "C:\\Users\\aguil\\.nuget\\packages\\",
+      "outputPath": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aguil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5234,8 +5234,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
-              "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\Jd_app\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj"
+            "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj": {
+              "projectPath": "D:\\PROJECTS\\Github\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp\\TravelRecordApp.csproj"
             }
           }
         }
